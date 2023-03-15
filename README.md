@@ -4,17 +4,17 @@
 
 Objetivo dessa atividade é praticar manipulaçao de arquivos em C++ 🚀
 
-Espera-se que ao final seja capaz de criar, editar, buscar informaçoes e fechar arquivos e compreender os principais conceitos por tras dessas açoes. 
+Espera-se que ao final seja capaz de criar, editar, buscar informaçoes e fechar arquivos e compreender os principais conceitos por trás dessas açoes. 
 
-Obs.: Essa atividade não vale pontos, use para se familiarizar com o modelo de submissão que sera utilizado nas atividades em dupla.
+Obs.: Essa atividade não vale pontos, use para se familiarizar com o modelo de submissão que será utilizado nas atividades em dupla.
 
 ## 💻 Termos para saber
 
 ### Arquivo 
-é um conjunto de dados, dispostos de forma sequencial.
+É um conjunto de dados, dispostos de forma sequencial.
 
 ### buffer 
-pode ser usado para acelerar a leitura e escrita de arquivos.
+Pode ser usado para acelerar a leitura e escrita de arquivos.
 
 ### Cursor
 Um cursor é associado ao arquivo de forma a indicar a próxima posição a ser lida ou gravada.
@@ -33,17 +33,14 @@ Se um arquivo aberto para escrita for fechado, o conteúdo de seu buffer associa
 
 ## 🗄: Atividade
 
-Em C, cada stream associado a um arquivo tem uma estrutura de controle de arquivo do tipo FILE 
-Essa estrutura é definida no cabeçalho stdio.h, que deve ser incluído em todos os programas que manipulam arquivos.
+Em C++ deve-se associar um stream a um arquivo e realizar uma operação de abertura.
 
-Em C++ 
+### Escreva codigo em C++ para:
 
-### Execute os arquivos de exemplo para:
-
-- criar arquivo
-- escrever e gravar registros no arquivo
-- buscar um registro dentro do arquivo
-- fechar o arquivo
+- criar um arquivo vazio;
+- escrever e gravar registros no arquivo existente;
+- buscar um registro dentro do arquivo;
+- fechar o arquivo;
 
 ## 📝 Passos
 
