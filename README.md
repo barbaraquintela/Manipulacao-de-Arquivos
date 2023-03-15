@@ -35,9 +35,9 @@ Se um arquivo aberto para escrita for fechado, o conteúdo de seu buffer associa
 
 Em C++ deve-se associar um stream a um arquivo e realizar uma operação de abertura.
 
-### Escreva codigo em C++ para:
+### Execute o codigo em C++ files.cpp e localize as funcoes que executam as operações abaixo:
 
-- criar um arquivo vazio;
+- criar um arquivo binario;
 - escrever e gravar registros no arquivo existente;
 - buscar um registro dentro do arquivo;
 - fechar o arquivo;
